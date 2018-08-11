@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <title>metadata </title> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Academia Frontend">
+    <meta name="keyword" content="html, CSS, JavaScript">
+     
+    
+    
+    <meta name="author" content="Franck">
+</head>
+
+<body>
+   
+
+
+        Este é um documento html
+        <canvas id="tela"></canvas>
+        <noscript>
+            <h2>Scripts estão desabilitados !</h2>
+        </noscript>
+
+        <script>
+        
+        alert('Executou o script ');
+        
+        
+        function draw(){
+            var canvas = document.getElementById("tela");
+            var context = canvas.getContext("2d");
+            context.fillRect(50,25,150,100);
+        }
+        
+        draw();
+        </script>
+  
+
+</body>
+
+</html>
