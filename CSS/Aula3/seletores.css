@@ -1,0 +1,69 @@
+* {
+    font-family: 'open sans'
+}
+
+p[name] {
+    color: blue;
+}
+
+p[name=title] {
+    color: blue;
+}
+
+p[name~=impar] {
+    color: yellow;
+}
+
+
+p[name |=par] {
+    color: fuchsia;
+}
+
+p .aula {
+    color: red;
+    font-weight: 900;
+}
+
+p::first-letter {
+    background-color: #cccccc;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+p:first-line {
+    background-color: #cccccc;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+p:hover,
+fieldset:hover {
+
+    background-color: beige;
+}
+
+.aula {
+    color: blue;
+}
+
+#dados-label {
+
+
+    font-size: 26px;
+    color: red;
+}
+
+.container>label {
+
+    border: 2px solid red;
+    margin: 2px;
+
+}
+    /* atingindo o irmão do label */
+.sub-container>label+h4 {
+    color: blueviolet;
+
+
+}

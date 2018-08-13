@@ -1,0 +1,15 @@
+
+/*  elemento */
+h1{
+    background-color: blue;
+
+}
+/*  id*/
+#spec {
+    background-color: beige ;
+}
+
+/*  class */
+.spec{
+ background-color:  #ccc;
+}
