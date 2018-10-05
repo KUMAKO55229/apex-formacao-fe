@@ -1,0 +1,142 @@
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width : 100%;
+
+}
+
+.col-33{
+  width: 33%;
+  
+ }
+ 
+.col-45{
+  width: 45%;
+
+}
+form{
+width: 70%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+/* wrap quebra linha*/
+flex-wrap: wrap;
+
+
+}
+.input-group {
+  display:flex ;
+  flex-direction: column;
+  width: 45%;
+ 
+  margin:  10px 0px;
+ 
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+.row-bottom{
+  display:  flex ;
+  flex-direction: flex-start ;
+  width: 100% ;
+
+
+}
+
+.buttons-deck {
+
+display: flex;
+justify-content: flex-end;
+width: 100%;
+border-radius:  2.5px;
+
+}
+
+.btn-cancelar{
+  border:solid 2.5px  #359be0;
+  background-color : #359be0;
+
+}
+.btn-salvar{
+  background-color: #13cb65; 
+  border :  none;
+  color: #FFF;
+}
+
+button {
+  width: 165px;
+  height: 44px;
+  border-radius: 100px;
+  border-width: 2.5px;
+  margin: 10px 5px;
+
+  font-family: Roboto; 
+  font-size: 20px;
+  font-weight :  500;  
+  box-shadow : 1px 1px 3px #ccc;
+  cursor: pointer ;
+
+
+
+}
+
+button:last-child{
+  margin-right:  0px;
+
+}
+
+button:active{
+  opacity: 0.7;
+
+}
+button:focus{
+  outline: none;
+}
+
+button:hover{
+  box-shadow: 1px 1 px 3px #ccc;
+
+}
+
+label{
+ /* color: #9b9b9b ;*/
+ width: 140px;
+ height: 19px;
+ font-family: OpenSans;
+ font-size: 14px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #9b9b9b;
+}
+
+h1{    
+        font-size: 36 px ;
+        font-weight: 800; 
+        line-height: 0.67;
+        letter-spacing : 0.2px;
+        color: #9b9b9b ;
+        margin-left: 30;
+
+ 
+         /*  webkit: texte stroke 1px #979797;*/
+    
+ }
+
+
+
+
+
+

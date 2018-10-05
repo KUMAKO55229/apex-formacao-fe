@@ -1,0 +1,9 @@
+
+
+
+- npm init
+// mocha é um runner
+- npm install mocha --save-dev 
+
+// cahi é uma biblioteca
+-npm install chai --save-dev

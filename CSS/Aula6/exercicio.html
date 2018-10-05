@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>document</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <!-- icon´s library-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h1>Cadastro de vehiculos</h1>
+        <form action="">
+
+
+
+
+            <h2>
+                <i class="material-icons">
+                    directions_car
+                </i> dados dos veiculos</h2>
+            <div class="fieldset">
+
+
+                <div class="input-group">
+                    <label for="">Placa</label>
+                    <input type="text" data-inputmask="'mask': 'AAA-9999'">
+
+                </div>
+
+
+                <div class="input-group">
+
+
+                    <label for="">renavan</label>
+                    <!--    <input type="text" required minlength="6" maxlength="30"> -->
+
+                    <input type="text" required minlength="6" maxlength="30">
+                </div>
+
+                <div class="input-group">
+
+                    <label for="">Cidade</label>
+                    <input type="text" required minlength="6" maxlength="30">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="">estado</label>
+                    <input type="text" required minlength="6" maxlength="30">
+
+                </div>
+
+
+
+
+                <div class="input-group">
+
+
+                    <label for="">marca</label>
+                    <input type="text" required minlength="6" maxlength="30">
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <label for="">Modelo</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label for="">Ano</label>
+                    <input type="date" required minlength="6" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label for="">ano-fab</label>
+                    <input type="date" required minlength="6" maxlength="30">
+
+                </div>
+
+                <div class="input-group">
+                    <label for="">qt-eixos</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label for="">tipo</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                </div>
+
+            </div>
+
+            <h2>
+                <i class="material-icons">
+                    person
+                </i> dados do proprietario</h2>
+            <div class="fieldset">
+
+                <div class="input-group">
+                    <label for="" class="input">nome</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+                <div class="input-group">
+                    <label for="">cpf</label>
+                    <input type="number" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="">rg</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+                <div class="input-group">
+                    <label for="">endereço</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="">rua</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="">Numero</label>
+                    <input type="number" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="">Bairro</label>
+                    <input type="text" required minlength="6" maxlength="30">
+                    <br>
+                </div>
+
+
+
+                <div class="input-group">
+                    <legend for="">Estado</legend>
+
+
+
+                    <select name="" id="">
+
+
+                        <optgroup label="Brasil">
+
+                            <option value="Brasilia">Brasilia</option>
+
+                            <option value="RS" label="RS"></option>
+                            <option value="RJ" label="RJ"></option>
+                            <option value="CEARA" label="CEARA"></option>
+
+                        </optgroup>
+                    </select>
+
+
+
+
+                </div>
+
+
+
+
+                <div class="input-group">
+                    <legend for="">Cidade</legend>
+
+
+
+                    <select name="" id="">
+
+
+                        <optgroup label="Santa Catarina">
+
+                            <option value="Criciuma" label="Criciuma"></option>
+                            <option value="Florianópolis" label="Florianópolis"></option>
+                            <option value="Blumenau" label="Blumenau"></option>
+                            <option value="Araranguá" label="Araranguá"></option>
+
+                        </optgroup>
+                    </select>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <div class="buttons-deck">
+
+                <div class="button-deck1">
+
+                   
+                    <button class="btn-cancelar">Cancelar</button>
+
+
+                </div>
+
+
+                <div class="button-deck2">
+
+
+
+                    <button class="btn-salvar">Salvar</button>
+
+
+                    
+
+
+                </div>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+    <script>
+        function init() {
+            $(":input").inputmask();
+        };
+        init();
+
+    </script>
+</body>
+
+</html>

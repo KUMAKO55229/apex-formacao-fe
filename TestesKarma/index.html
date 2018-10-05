@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+   
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./app/main.js"> </script>
+    <script src="./app/users.service.js"> </script>
+   
+</head>
+
+
+<body ng-app="app" ng-controller="MainController">
+
+
+ <!--   <h1 ng-repeat="name in names track by $index"> {{name}} </h1> -->
+ <label for="">login</label>
+ <input id="login" type="text" ng-model="login" placeholder="login">
+ <br>
+<label for="">Password</label>
+<input id="password" type="text" ng-model="password" placeholder="password">
+<br>
+
+<button id="btn-login" ng-click="entrar()">Entrar </button>
+
+<h1 id="message">{{message}}</h1>
+
+
+</body>
+
+</html>

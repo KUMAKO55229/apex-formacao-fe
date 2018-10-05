@@ -1,0 +1,14 @@
+ document.querySelector('#listaNomes')               para fazer  print 
+
+ let elee =document.querySelector('#listaNomes')
+ elee.style.fontSize = '30px' 
+
+ document.querySelector('#teste').addEventListener('click',function(evt){console.log('click mo botoao teste')})
+
+
+ - npm init 
+ -npm install angular@1.7.2 --save
+ 
+
+ -npm install -g browser-sync
+ -

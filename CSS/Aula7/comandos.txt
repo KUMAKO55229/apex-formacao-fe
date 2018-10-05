@@ -1,0 +1,31 @@
+creer le repo sur github
+
+git clone
+
+
+
+
+git checkout -b dev // cria branch dev
+
+git checkout .  //apaga todo arquivo
+
+git rflog      // mostrar tudo que foi feito
+
+
+:wq //para sair de rflog
+
+https://git-scm.com/doc
+
+git commi --amend   //para juntar dois comites
+                    //o ultimo com o precedente
+
+
+
+---------------trabalhando com boostrap
+npm init 
+npm install (criar pasta node module
+npm install bootstrap --save  (dépendencia boostrap)
+npm install jquery --save (instalando Jquery)
+npm install material-design-icons  (para instalar icon font)
+
+

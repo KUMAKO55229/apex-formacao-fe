@@ -1,0 +1,17 @@
+https://api.github.com/users/KUMAKO55229
+
+
+
+
+lista de API 
+https://rapidapi.com/
+
+
+
+digitar no google 
+scrum jeff sutherland   //para achar livro bon para srum
+
+
+// generar token
+https://github.com/settings/tokens/new
+

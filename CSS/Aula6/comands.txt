@@ -1,0 +1,13 @@
+
+//processador
+
+Chegar no repositório de trabalho 
+
+
+npm install node-sass nodemon --save-dev
+
+npm run build-css        
+
+
+
+npm run start

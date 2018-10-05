@@ -1,1 +1,47 @@
 -        https://www.w3schools.com/
+
+
+https://picsum.photos/
+https://zpl.io/bLDBWNB
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+
+
+https://picsum.photos/
+https://zpl.io/bLDBWNB
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://flexboxfroggy.com/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+<script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="https://rawgit.com/RobinHerbots/Inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+
+-- final do body ------------------
+  <script>
+      function init(){
+        $(":input").inputmask();
+      };
+      init();
+  </script>
+
+documentação mask 
+https://github.com/RobinHerbots/Inputmask
+
+
+
+browserstack
+
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+

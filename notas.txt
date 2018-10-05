@@ -1,11 +1,34 @@
 
 -git config --global user.name ""
 -git config --glbal user.email ""
-- git init 
+-git init 
 
-- git remote add origin httpsgithub.comKUMAKO55229apex-formacao-fe.git
-- git fetch
+-git remote add origin httpsgithub.comKUMAKO55229apex-formacao-fe.git
+-git fetch
 -git add .
-- git commit -m " aula 01 html "
+-git commit -m " aula 01 html "
 -git status
 -git push origin master
+
+
+-------------------------------------------
+creer le repo sur github
+
+git clone
+
+
+
+
+git checkout -b dev // cria branch dev
+
+git checkout .  //apaga todo arquivo
+
+git rflog      // mostrar tudo que foi feito
+
+
+:wq //para sair de rflog
+
+https://git-scm.com/doc
+
+git commi --amend   //para juntar dois comites
+                    //o ultimo com o precedente

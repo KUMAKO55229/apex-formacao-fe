@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-01",
+  "version": "1.0.0",
+  "description": "aula 01 angularjs ",
+  "main": "./app/app.js",
+  "scripts": {
+    "serve": "browser-sync start --server -w"
+  },
+  "author": "Ian Santos00",
+  "license": "MIT",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular": "^1.7.2",
+    "angular-animate": "^1.7.4",
+    "install": "^0.12.1",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "npm": "^6.4.1"
+  }
+}

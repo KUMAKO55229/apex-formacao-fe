@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-01",
+  "version": "1.0.0",
+  "description": "Repositório principal",
+  "main": "app.js",
+  "scripts": {
+    "serve": "browser-sync start --server \"Javascript/Angularjs/\"  -w "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KUMAKO55229/apex-formacao-fe.git"
+  },
+  "author": "franck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KUMAKO55229/apex-formacao-fe/issues"
+  },
+  "homepage": "https://github.com/KUMAKO55229/apex-formacao-fe#readme",
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}

@@ -1,0 +1,46 @@
+/*.ng-enter,
+.ng-move{
+    transition: 1.0s linear all;
+}
+.ng-enter-active, .ng-enter-active {
+    height: 50px;
+    opacity: 1px;
+
+}
+.ng-leaver{
+    opacity: 0;
+    overflow: hidden;
+}
+
+*/
+
+
+.ng-enter,
+.ng-leave,
+.ng-move {
+  transition: 0.5s ease all;
+}
+
+.ng-enter,
+.ng-move {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.ng-enter.ng-enter-active,
+.ng-move.ng-move-active {
+  height: 120px;
+  opacity: 1;
+}
+
+.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+.ng-leave.ng-leave-active {
+  height: 0;
+  opacity: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}

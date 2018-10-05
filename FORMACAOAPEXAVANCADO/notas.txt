@@ -1,0 +1,11 @@
+documentação 
+
+instalar vu.js
+--npm install -g @vue/cli
+-----------para ver a versaõ
+- vue --version
+- vue create my-project
+----instalar o plugin  vetur  para visualizar o Appvue
+-- npm run serve
+
+
